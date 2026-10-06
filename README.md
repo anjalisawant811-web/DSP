@@ -6,7 +6,7 @@ React/Vite dashboard + FastAPI backend. Uses the **uploaded** data only (`data/c
 ```bash
 # Terminal 1 - backend (Python 3.10+)
 cd backend
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+python -m venv .venv      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 
